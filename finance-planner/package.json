@@ -1,0 +1,14 @@
+{
+  "name": "finance-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "理財目標規劃師：以 PV、FV、PMT 為核心的純靜態理財試算網站",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name=finance-planner"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
